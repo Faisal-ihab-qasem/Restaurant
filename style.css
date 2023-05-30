@@ -1,0 +1,163 @@
+body {
+    background-color: #e0e0e0;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+
+
+
+.image-container {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.image-container img {
+    max-width: 100%;
+    height: auto;
+}
+
+header {
+    background-color: #25C3CA;
+    color: #fff;
+    padding: 10px;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav .logo {
+    display: inline-block;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+
+main {
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+
+form {
+    margin-bottom: 20px;
+    background-color: #f5f5f5;
+    padding: 20px;
+    border-radius: 4px;
+}
+
+form label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+form input,
+form select {
+    width: 100%;
+    padding: 10px;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+
+
+form button:hover {
+    background-color: #e75252;
+}
+
+
+form button {
+    padding: 8px 15px;
+    background-color: #25C3CA;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+#foodTable {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+#foodTable th,
+#foodTable td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+#foodTable th {
+    background-color: #f5f5f5;
+}
+
+#foodTable tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+#foodTable tbody tr:hover {
+    background-color: #eaf2fd;
+}
+
+
+
+
+footer {
+    background-color: #25C3CA;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+.social-media {
+    list-style-type: none;
+    padding: 0;
+    margin: 10px 0;
+}
+
+.social-media li {
+    display: inline;
+    margin-right: 10px;
+}
+
+.social-media li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.social-media li a:hover {
+    color: #bbb;
+}
+
+
