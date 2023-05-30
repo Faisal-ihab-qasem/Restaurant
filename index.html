@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="./logo.png" class="logo"><img src="./logo.png" alt="Logo"></a>
+            <ul>
+        <nav>
+            <ul>
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="">Menu</a></li>
+                <li><a href="">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+
+
+        <div class="form-container">
+            <form id="foodForm">
+            </form>
+        </div>
+    
+        <div class="image-container">
+            <img src="./Group 21.png" alt="Restaurant Photo">
+        </div>
+
+        <form id="foodForm">
+            <label for="foodName">Food Name:</label>
+            <input type="text" id="foodName" required>
+
+            <label for="foodType">Type of Food:</label>
+            <select id="foodType" required>
+                <option value="">Select a type</option>
+                <option value="Fruit and vegetables">Fruit and vegetables</option>
+                <option value="Starchy food">Starchy food</option>
+                <option value="Dairy">Dairy</option>
+                <option value="Protein">Protein</option>
+                <option value="Fat">Fat</option>
+            </select>
+
+            <label for="foodPrice">Price:</label>
+            <input type="number" id="foodPrice" required>
+
+            <button type="submit">Submit</button>
+        </form>
+
+        <table id="foodTable">
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Name</th>
+                    <th>Type</th>
+                    <th>Price</th>
+                </tr>
+            </thead>
+            <tbody></tbody>
+        </table>
+    </main>
+
+    <footer>
+        <ul class="social-media">
+            <li><a href="./facebook.jpg"><i class="facebook.jpg"></i></a></li>
+            <li><a href="./linkedin.jpg"><i class="linkedin.jpg"></i></a></li>
+            <li><a href="./insta.png"><i class="insta.png"></i></a></li>
+        </ul>
+       
+        
+        <div class="row">
+          &copy; 2023 Restaurant © 2023 Inferno - All rights reserved || Designed By: Fasisal 
+        </div>   
+
+     </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>
